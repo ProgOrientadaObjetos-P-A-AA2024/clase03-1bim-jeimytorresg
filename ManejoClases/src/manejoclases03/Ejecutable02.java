@@ -20,10 +20,18 @@ public class Ejecutable02 {
         h1.establecerNombre("Vaca Ortíz");
         h2.establecerNombre("Militar");
         h3.establecerNombre("Manuel IM");
+        /*
+        El System.out.printf esta imprimiendo los valores de los atributos que
+        se han asignado mediante los metodos. En este caso solo esta siendo
+        llamado el metodo establecerNombre, por tanto solo el atributo nombre
+        tendra un valor. En la ejecucion del codigo, numeroCamas y presupuesto
+        no tienen ningun valor asignado, por l cual el programa imprimira los 
+        valores de esas variables que se asignan por default (en este caso, 0)
         
+        */
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
                 h1.obtenerNumeroCamas(), h1.obtenerPresupuesto());
-        
+        /*
         h1.establecerNombre("Hospital Vaca Ortíz");
         
         System.out.printf("%s - %d - %.2f\n", h1.obtenerNombre(),
@@ -33,7 +41,7 @@ public class Ejecutable02 {
         
         System.out.printf("%s - %d - %.2f\n", h2.obtenerNombre(),
                 h2.obtenerNumeroCamas(), h2.obtenerPresupuesto());
-        
+        */
         
     }
 }

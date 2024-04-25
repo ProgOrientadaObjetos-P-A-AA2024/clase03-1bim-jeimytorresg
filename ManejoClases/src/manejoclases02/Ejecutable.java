@@ -19,4 +19,5 @@ public class Ejecutable {
         System.out.printf("%s - %d - %.2f\n", hospital.nombre,
                 hospital.numeroCamas, hospital.presupuesto);
     }
+
 }
