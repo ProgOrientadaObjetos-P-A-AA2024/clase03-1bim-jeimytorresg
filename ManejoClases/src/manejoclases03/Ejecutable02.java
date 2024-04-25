@@ -25,7 +25,7 @@ public class Ejecutable02 {
         se han asignado mediante los metodos. En este caso solo esta siendo
         llamado el metodo establecerNombre, por tanto solo el atributo nombre
         tendra un valor. En la ejecucion del codigo, numeroCamas y presupuesto
-        no tienen ningun valor asignado, por l cual el programa imprimira los 
+        no tienen ningun valor asignado, por lo cual el programa imprimira los 
         valores de esas variables que se asignan por default (en este caso, 0)
         
         */
